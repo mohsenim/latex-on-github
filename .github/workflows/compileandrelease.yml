@@ -4,9 +4,9 @@ name: Compile Latex and Release PDF
 
 on:
   push:
-    tags:
-      - '*.*.*'
-    workflow_dispatch:
+    branches:
+      - master
+  workflow_dispatch:
 
     
 jobs:
